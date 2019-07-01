@@ -1,0 +1,53 @@
+
+
+syntax = "proto3";
+package dinoproto3;
+//in proto 3 we dont need the required r optional
+//also all these fields created are pointers in proto2 whereas normal variables in proto3
+message animal{
+    int32 id = 1;
+    string animal_type = 2;
+    string nickname = 3;
+    int32 zone = 4;
+    int32 age = 5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
