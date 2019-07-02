@@ -10,6 +10,14 @@ type SQLHandler struct {
 
 	*sql.DB
 }
+//func NewMySQLHandler(connection string) (*SQLHandler, error) {
+//	db, err := sql.Open("mysql",connection)
+//	return &SQLHandler{
+//		DB: &DB{
+//
+//		},
+//	}
+//}
 func (handler *SQLHandler) GetAvailableDynos() ([]Animal, error) {
 	return handler.sendQuery("Select * from Animals")
 }

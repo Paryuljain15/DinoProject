@@ -8,7 +8,7 @@ import (
 type MongoDBHandler struct {
 	*mgo.Session
 }
-func NewMongodbHandler(connection string)(*MongoDBHandler, error) {
+func NewMongoDBHandler(connection string)(*MongoDBHandler, error) {
 	s, err := mgo.Dial(connection)
 	return &MongoDBHandler{
 		Session : s,
