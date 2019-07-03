@@ -1,0 +1,3 @@
+# DinoProject
+
+Practicing Golang.
