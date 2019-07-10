@@ -13,6 +13,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	dinoapi.RunApi("localhost:8181", db)
+
+	dinoapi.RunApi("localhost:8080", db)
 
 }

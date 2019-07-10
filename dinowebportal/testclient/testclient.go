@@ -35,7 +35,7 @@ func main() {
 	// for editing
 
 
-	resp, err := http.Post("http://localhost:8181/api/dinos/edit/patro", "apllication/json", &b)
+	resp, err := http.Post("http://localhost:8080/api/dinos/edit/patro", "application/json", &b)
 	if err != nil || resp.Status != "200 OK" {  // or resp.StatusCode != 200 would also work
 		log.Fatal(err)
 	}
