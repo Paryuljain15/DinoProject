@@ -14,6 +14,6 @@ func main() {
 		log.Fatal(err)
 	}
 
-	dinoapi.RunApi("localhost:8080", db)
+	dinoapi.RunApi("192.124.120.118:8181", db)
 
 }
